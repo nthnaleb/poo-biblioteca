@@ -1,0 +1,17 @@
+{
+  "name": "senai/biblioteca-poo",
+  "description": "Sistema de gestão de biblioteca e empréstimos em PHP com POO",
+  "type": "project",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "scripts": {
+    "demo": "php index.php",
+    "test": "php tests/run.php"
+  }
+}
